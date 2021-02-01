@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-light: #f8f9fa;
+    --color-white: white;
+    --color-unaccent: #808080;
+    --color-medium: #e8e8e8;
+    --color-dark: #a1a1a1;
+
+    --spacing-smail: 10px;
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+
+    --border-radius: 4px;
+
+    --linear-gradient: linear-gradient(to right, #f090c6, #f75bb3, #fc37a6, #f51e98, #ff0090);
+	--box-shadow: 
+		0 16px 24px 2px rgba(33,37,41,.02), 
+		0 6px 30px 5px rgba(33,37,41,.04), 
+		0 8px 10px -5px rgba(33,37,41,.1);
+}
+/* HEADER */
+body header{
+    background-color: #09100D;
+    text-align: center;
+}
+header div.HrefHeader certificate,shop{
+    margin-top: -30%;
+}
+header div.HrefHeader contact,service{
+    margin-top: -20%;
+}
+.HrefHeader{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20%);
+}
+.HrefHeaderImg{
+    z-index: 10;
+}
+.HrefHeader index{
+    margin-top: -10%;
+}
+/*Font*/
+a{
+    font-family: 'Roboto', sans-serif !important;
+    color: #FDFDFD;
+    text-decoration: none;      /*Убираем подчёркивание текста*/
+    font-size: 1.1vw; 
+}
+p{
+    font-family: 'Roboto', sans-serif !important;
+    color: #09100D;
+    text-decoration: none;      /*Убираем подчёркивание текста*/
+    font-size: 1vw; 
+}
+a:hover{    /*Меняет цвет при наведении*/
+    text-decoration: none;
+    color: #FF0588;
+}
+h2{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.5vw; 
+}
+content div#content div#girl p, div#child p, div#shop p{
+    text-align: center;
+}
+h3{
+    font-family: 'Roboto', sans-serif !important;
+    color: #FDFDFD;
+    text-decoration: none;      /*Убираем подчёркивание текста*/
+    font-size: 1.1vw; 
+    font-weight: normal;
+}
+figcaption{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 95%;
+    color: #000000;
+}
+/* FOOTER */
+footer{
+    display: grid;
+    grid-gap: 5%;
+    padding: 2%;
+    height: 100%;
+    margin-top: 10%;
+    background-color: #09100D;
+}
+.HrefFoot a{
+    display: grid;
+    grid-gap: 5px;
+}
+
+/*Изменения скорлла*/
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-dark);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+	background-color: var(--color-white);
+}

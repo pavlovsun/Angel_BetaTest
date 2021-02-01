@@ -1,0 +1,65 @@
+
+/*CONTACT-CONTENT*/
+#bg{
+    background-image: url(../img/Contact/photo1.jpg);
+    background-size: 150%;
+    background-position: 0% 1.5%;
+    background-repeat:  round;
+    background-repeat:  no-repeat;
+}
+/*LoginFon*/
+/*Login form*/
+.box{
+    border-radius: 20px;
+    background-color: #09100D;
+    width: 300px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.box h1{
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "email"],.box input[type = "text"],.box input[type = "phone"],.box textarea[name = "text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "email"]:focus,.box input[type = "text"]:focus,.box input[type = "phone"]:focus,.box textarea[name = "text"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+    background-color: #2ecc71; /* Цвет фона */
+}
+.box button[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box button[type = "submit"]:hover{
+    background: #2ecc71;
+    box-shadow: 0 0 10px #2ecc71, 0 0 40px #2ecc71, 0 0 80px #2ecc71;
+}

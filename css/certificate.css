@@ -1,0 +1,11 @@
+/* CERTIFACATE */
+.imgcerf img{
+    width: 100%;
+    margin: 5%;
+}
+.imgcerf{
+    display: grid;
+    grid-gap: 5%;/*Отступ для grid*/
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5%;
+}
